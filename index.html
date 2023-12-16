@@ -1,13 +1,39 @@
-<!DOCTYPE html>  <!-- Указывайте Doctype -->
-<html lang="ru">  <!-- Указывайте язык документа -->
-  <head>  <!-- Визуально отделяйте вложенные элементы двойным пробелом -->
-    <meta charset="UTF-8" />  <!-- Указывайте кодировку -->
-    <title>Page title</title> <!-- Задавайте заголовок -->
+<!DOCTYPE html> 
+<html lang="ru">
+  <head>  
+    <meta charset="UTF-8" />
+    <title>SEMEN-12</title>
+    <link rel="stylesheet" href="styles/styles.css?ver=0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   </head>
-  <body>
-    <h1>Заголовок страницы</h1> <!-- Всегда закрывайте парные теги -->
-    <br> <!-- Не закрывайте одиночные теги -->
-    <p title="Подсказка">Параграф текста</p>
-    <!-- Используйте двойные кавычки для значений атрибутов. -->
+  <body class="body">
+    <hader class="page-header">
+      <a href="index.html" class="page-hader__logo">Логотип</a>
+      <nav class="page-headeer__nav">
+        <a href="#" class="page-header__nav-link">Мероприятия</a>
+        <a href="#" class="page-header__nav-link">Блог</a>
+        <a href="#" class="page-header__nav-link">О нас</a>
+        <a href="#" class="page-header__nav-link">Контакты</a>
+      </nav>
+
+      <a href="#" class="btn page-header__user-btn"></a>
+    </hader>
+    <main class="main">
+      <div class="home" >
+        <header class="main-header__main-header"></header>
+        <section class="offers home__offers"></section>
+        <section class="about home__about"></section>
+        <section class="upcoming home__upcoming"></section>
+        <section class="listing home__listing"></section>
+        <section class="contacts home__contacts"></section>
+
+        <div class="doit home__doit"></div>
+      </div>
+    </main>
+    <futre class="page-futer"></futre>
   </body>
 </html>
